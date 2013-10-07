@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require handlebars
+//= require ember
+//= require_self
+//= require konacha_playground
+
+// for more details see: http://emberjs.com/guides/application/
+KonachaPlayground = Ember.Application.create();
+
 //= require_tree .
